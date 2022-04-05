@@ -1,4 +1,4 @@
-package main
+package menu
 
 import "fmt"
 
@@ -15,7 +15,7 @@ func main() {
 			fmt.Println("*quit\tExit the menu.")
 
 		case "version":
-			fmt.Println("This version is 1.0")
+			fmt.Println("This version is 1.1")
 
 		case "quit":
 			return
